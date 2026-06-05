@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────────────
+# heroku.yml — Tells Heroku to build using Dockerfile
+# and run the Streamlit app as a web process
+# ─────────────────────────────────────────────────────
+
+build:
+  # Use the Dockerfile in the root of the repo
+  docker:
+    web: Dockerfile
+
+run:
+  # Run the Streamlit app as the web process
+  web: streamlit run Streamlit.py --server.port=$PORT --server.address=0.0.0.0
