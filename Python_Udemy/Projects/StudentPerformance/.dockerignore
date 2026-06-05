@@ -1,6 +1,7 @@
-__pycache__/
+.venv
+venv
+__pycache__
 *.pyc
-*.pkl
 .git
-venv/
-.env
+.gitignore
+.ipynb_checkpoints
