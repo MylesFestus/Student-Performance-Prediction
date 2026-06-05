@@ -38,4 +38,7 @@ ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
 ENV STREAMLIT_SERVER_HEADLESS=true
 
 # Run the application
-CMD ["streamlit", "run", "Streamlit.py"]
+CMD ["streamlit", "run", "Streamlit.py", \
+     "--server.port=8501", \
+     "--server.address=0.0.0.0", \
+     "--server.headless=true"]
