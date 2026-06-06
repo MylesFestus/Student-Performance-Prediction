@@ -119,19 +119,17 @@ if st.button("Predict Placement", use_container_width=True):
 
     if hasattr(model, "predict_proba"):
 
-        st.subheader("Class Probabilities")
+        st.subheader("Placement Probabilities")
 
         prob_col1, prob_col2 = st.columns(2)
 
         with prob_col1:
-            st.container(border=True)
             st.metric(
                 label="❌ Not Placed",
                 value=f"{prob[0]*100:.2f}%"
             )
 
         with prob_col2:
-            st.container(border=True)
             st.metric(
                 label="🎉 Placed",
                 value=f"{prob[1]*100:.2f}%"
