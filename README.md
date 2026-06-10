@@ -13,7 +13,7 @@
 
 ##  Live Demo
 
-**App URL:** [https://placement-streamlit-app.herokuapp.com](https://placement-streamlit-app.herokuapp.com)
+**App URL:** [https://mylesfestus-student-performance-prediction-app-ehs7sq.streamlit.app]
 
 ---
 
