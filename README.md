@@ -208,7 +208,7 @@ Open at `http://localhost:8501`
 
 ```bash
 # Build the Docker image
-docker build -t placement-app .
+docker build -t placement-app
 
 # Run the container
 docker run -p 8501:8501 placement-app
